@@ -1,0 +1,37 @@
+<ion-side-menus>
+  <!-- Center content -->
+  <ion-side-menu-content class="calm-bg">
+  	
+	<ion-tabs class="tabs-positive bar-striped tabs-icon-top">
+
+ 	 <ion-tab title="Home" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline" href="#/mainTabs/home">
+   	 <!-- Tab 1 content -->
+   		 <ion-nav-view name="Home-tab"></ion-nav-view>
+ 		</ion-tab>
+
+  <ion-tab title="About" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline" href="#/mainTabs/about">
+    <!-- Tab 2 content -->
+     <ion-nav-view name="About-tab"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Settings" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" href="#/mainTabs/setting">
+    <!-- Tab 3 content -->
+     <ion-nav-view name="Settings-tab"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>
+
+  </ion-side-menu-content>
+	
+  <!-- Left menu -->
+  <ion-side-menu side="left" width="150" class="side-menu-bg">
+  		<ion-list>
+  		  <ion-item href="#">
+  				tab
+  		  </ion-item>
+  		   <ion-item  href="#">
+  				数据库测试
+  		  </ion-item>
+  		</ion-list>
+  </ion-side-menu>
+</ion-side-menus>
